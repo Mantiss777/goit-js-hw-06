@@ -13,4 +13,6 @@ function addIngredients(ingredients) {
 	return listWithId;
 }
 
-console.log(addIngredients(ingredients));
+addIngredients(ingredients)
+
+

@@ -18,9 +18,7 @@ const handleIncrement = () => {
 };
 
 const handleDecrement = () => {
-   //  if (counterValue === 0) {
-   //      return;
-   //  }
+  
     setResult(counterValue - 1);
 };
 

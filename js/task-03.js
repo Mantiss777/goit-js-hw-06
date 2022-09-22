@@ -26,4 +26,5 @@ function addGallery(images) {
 	return listWithId;
 }
 
-console.log(addGallery(images));
+addGallery(images)
+

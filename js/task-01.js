@@ -1,5 +1,5 @@
 const listWithId = document.querySelector("ul#categories");
-// console.log(listWithId);
+
 
 // ====================================
 const numCatItem = listWithId.children.length;

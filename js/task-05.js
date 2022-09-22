@@ -4,7 +4,7 @@ const currentValue = document.querySelector("span#name-output");
 inputRef.addEventListener('input', onInputChange)
 
 
-const onInputChange = (event) => {
+function onInputChange (event) {
 	
 	currentValue.textContent = event.target.value
 	if (event.target.value === '') {
